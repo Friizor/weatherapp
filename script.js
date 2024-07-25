@@ -1,4 +1,9 @@
 //e1f71e54cbd296f88ae8114d0c860c73
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.matchMedia("(max-width: 430px)").matches) {
+        document.querySelector("button[type=submit]").textContent = 'Search';
+    }
+});
 
 
 const weatherForm = document.querySelector(".weatherForm");

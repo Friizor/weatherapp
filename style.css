@@ -16,6 +16,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     border: 2px solid hsl(0, 0%, 30%, 0.5);
+    outline: none;
     border-radius: 10px;
     margin: 10px;
     width: 300px;
@@ -84,4 +85,40 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
+}
+
+@media screen and (max-width : 430px) {
+    .weatherForm {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cityInput {
+        font-size: 1.2rem;
+        margin: 5px;
+        width: 60%;
+    }
+    button[type=submit] {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .card {
+        padding: 20px;
+    }
+    .weatherEmoji {
+        font-size: 6rem;
+    }
+    .cityDisplay, .tempDisplay {
+        font-size: 3rem;
+    }
+    .descDisplay {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 330px) {
+    .card {
+        padding: 0;
+    }
 }
