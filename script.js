@@ -1,4 +1,3 @@
-//e1f71e54cbd296f88ae8114d0c860c73
 document.addEventListener("DOMContentLoaded", function() {
     if (window.matchMedia("(max-width: 430px)").matches) {
         document.querySelector("button[type=submit]").textContent = 'Search';
@@ -10,6 +9,13 @@ const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
 const apiKey = "e1f71e54cbd296f88ae8114d0c860c73";
+
+//this is privat API KEY
+//if u install the project and its not work its probally because this KEY is not active anymore.
+//if u want to gget your own key visit the website: https://openweathermap.org.
+//you justt have to login and get your own key and replace it.
+//ENJOY
+//Made by Friizor ("with help of BroCode Youtube video") 🤫
 
 weatherForm.addEventListener("submit", async event => {
 
