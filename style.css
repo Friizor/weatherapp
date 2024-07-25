@@ -44,6 +44,7 @@ button[type=submit]:hover {
     min-width: 300px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     align-items: center;
 }
 
