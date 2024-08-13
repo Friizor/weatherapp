@@ -6,7 +6,7 @@
     <a href="https://friizor.github.io/weatherapp/" target="_blank">
         <img src="https://img.shields.io/badge/Demo-Link-brightgreen" alt="Demo Link">
     </a><br>
-    <img src="https://github.com/user-attachments/assets/bd106ca8-e38c-472f-b7d5-1a43938060d3" height="350px" alt="Screenshot">
+    <img src="https://github.com/user-attachments/assets/21573ac4-233a-4fcc-959f-c324c18469d8" height="350px" alt="Screenshot">
 </div>
 
 
